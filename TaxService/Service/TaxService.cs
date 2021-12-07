@@ -8,7 +8,7 @@ namespace TaxService
 
     public class TaxService : Factories.ITaxCalcFactory
     {       
-        Factories.ITaxCalcFactory factory = null;
+        Factories.ITaxCalcFactory provider = null;
 
         public TaxService(string clientName)
         {
@@ -16,8 +16,8 @@ namespace TaxService
             { 
                 throw new Exception("Please provide a valid client name or Tax Calculator");
             }
-            factory = Factories.TaxCalculatorFactory.GetProvider(clientName);
-            if (factory == null)
+            provider = Factories.TaxCalculatorFactory.GetProvider(clientName);
+            if (provider == null)
             {
                 throw new Exception("Error getting calculator.  Please double check provided client name");
             }
@@ -31,7 +31,7 @@ namespace TaxService
 
             try
             {
-                Rate r = await factory.GetTaxRatesForLocation(zipCode, Country, City, Street);
+                Rate r = await provider.GetTaxRatesForLocation(zipCode, Country, City, Street);
                 return r;
             }
             catch (Exception ex)
@@ -49,7 +49,7 @@ namespace TaxService
             
             try
             {
-                TaxOrder taxOrderResponse = await factory.CalculateTaxForOrder(tor);
+                TaxOrder taxOrderResponse = await provider.CalculateTaxForOrder(tor);
                 return taxOrderResponse;
             }
             catch (Exception ex)

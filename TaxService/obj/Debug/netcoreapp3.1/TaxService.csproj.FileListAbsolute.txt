@@ -10,6 +10,7 @@ D:\Source\repos\TaxService\TaxService\bin\Debug\netcoreapp3.1\Json.Net.dll
 D:\Source\repos\TaxService\TaxService\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
 D:\Source\repos\TaxService\TaxService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
 D:\Source\repos\TaxService\TaxService\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.csprojAssemblyReference.cache
 D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.AssemblyInfoInputs.cache
 D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.AssemblyInfo.cs
 D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.csproj.CoreCompileInputs.cache
@@ -22,4 +23,3 @@ D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.csproj.
 D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.dll
 D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.pdb
 D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.genruntimeconfig.cache
-D:\Source\repos\TaxService\TaxService\obj\Debug\netcoreapp3.1\TaxService.csprojAssemblyReference.cache
